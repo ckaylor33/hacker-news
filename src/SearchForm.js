@@ -13,6 +13,7 @@ const SearchForm = () => {
       <h2>search hacker news</h2>
       <input
         type='text'
+        placeholder='e.g .react'
         className='form-input'
         value={query}
         onChange={(e) => {
